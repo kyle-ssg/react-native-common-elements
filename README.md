@@ -2,7 +2,7 @@
 
 <img src="./screen.gif"/>
 
-###### Having developed a large number of applications and boilerplate code, of all the things I can't live without is a set of customisable layout components.
+###### Having developed a large number of applications and boilerplate code, of all the things I can't live without is this set of customisable layout components.
 
 ## Usage
 - ```npm i react-native-common-elements --save```
