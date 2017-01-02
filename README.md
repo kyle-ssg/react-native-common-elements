@@ -16,3 +16,39 @@
 ## Util
 - ```em(value, baseValue)``` returns unit based on device width
 
+
+## Example
+```
+<Flex>
+    <Row space>
+        <Column>
+            <Text>Text</Text>
+        </Column>
+        <Column>
+            <Text>Text2</Text>
+        </Column>
+    </Row>
+    <Container style={{ justifyContent: 'center' }}>
+
+        <FormGroup>
+            <H1>Header 1</H1>
+            <H2>Header 2</H2>
+            <H3>Header 3</H3>
+            <H4>Header 4</H4>
+            <H5>Header 5</H5>
+            <H6>Header 6</H6>
+            <Bold>Header 6</Bold>
+        </FormGroup>
+        <FormGroup>
+            <Row>
+                <Flex value={1 / 3}>
+                    <Bold>1/3</Bold>
+                </Flex>
+                <Flex value={2 / 3}>
+                    <Bold>2/3</Bold>
+                </Flex>
+            </Row>
+        </FormGroup>
+    </Container>
+</Flex>
+```
