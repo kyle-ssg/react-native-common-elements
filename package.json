@@ -1,0 +1,29 @@
+{
+  "name": "react-native-common-elements",
+  "version": "0.0.1",
+  "description": "Simple and easy to integrate common layout components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "elements",
+    "boilerplate",
+    "grid",
+    "flexbox"
+  ],
+  "author": "kyle-ssg",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle-ssg/react-native-simple-drawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyle-ssg/react-native-simple-drawer/issues"
+  },
+  "homepage": "https://github.com/kyle-ssg/react-native-simple-drawer#readme"
+}
