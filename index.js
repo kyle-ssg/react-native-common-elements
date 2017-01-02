@@ -1,1 +1,1 @@
-module.exports = './elements';
+module.exports = require('./elements');

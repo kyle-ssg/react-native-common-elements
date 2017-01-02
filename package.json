@@ -1,13 +1,14 @@
 {
   "name": "react-native-common-elements",
-  "version": "0.0.1",
-  "description": "Simple and easy to integrate common layout components",
+  "version": "0.1.0",
+  "description": "Simple and easy to integrate common layout components for react native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native",
+    "layout",
     "elements",
     "boilerplate",
     "grid",

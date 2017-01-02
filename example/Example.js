@@ -1,7 +1,7 @@
 const React = require('react');
 const { Component } = require('react');
 const { StyleSheet, Slider } = require('react-native');
-const { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } = require('./elements');
+const { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } = require('react-native-common-elements');
 
 const initWithFontSize = (fontSize)=>init({ h6: { color: '#999' } }, { fontSize });
 
