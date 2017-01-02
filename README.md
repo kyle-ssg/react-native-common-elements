@@ -29,7 +29,6 @@
         </Column>
     </Row>
     <Container style={{ justifyContent: 'center' }}>
-
         <FormGroup>
             <H1>Header 1</H1>
             <H2>Header 2</H2>
