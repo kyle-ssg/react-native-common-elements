@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyle-ssg/react-native-simple-drawer.git"
+    "url": "git+https://github.com/kyle-ssg/react-native-common-elements.git"
   },
   "bugs": {
-    "url": "https://github.com/kyle-ssg/react-native-simple-drawer/issues"
+    "url": "https://github.com/kyle-ssg/react-native-common-elements/issues"
   },
-  "homepage": "https://github.com/kyle-ssg/react-native-simple-drawer#readme"
+  "homepage": "https://github.com/kyle-ssg/react-native-common-elements#readme"
 }
