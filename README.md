@@ -6,7 +6,11 @@
 
 ## Usage
 - ```npm i react-native-common-elements --save```
-- ```import { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } = 'react-native-common-elements';```
+- ```import { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } from 'react-native-common-elements';```
+- ```
+//Optionally initialise with override styles and variables - see styles.js and styleVariables.js for full list of properties
+init({text:{color:'red'},h1:{color:'blue'}},{fontSize:16});
+```
 
 ## Components
 - ```<H1>...<H6>``` - text ranging from 1em to 2.5 em

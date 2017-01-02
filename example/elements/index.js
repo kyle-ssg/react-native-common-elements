@@ -3,15 +3,7 @@ import ReactNative, {Dimensions, View, TouchableOpacity, StyleSheet} from 'react
 import em from './em';
 import merge from './merge';
 import _styles from './styles';
-
-var _styleVariables = {
-    anchorColor: 'rgb(0,122,255)',
-    anchorColorDisabled: 'rgba(0,122,255,0.5)',
-    color: '#333',
-    fontSize: 16,
-    gutter: 10,
-    paddingVertical: 10,
-};
+import _styleVariables from './styleVariables';
 
 var styleVariables = Object.assign(_styleVariables, {});
 var stylesheet = StyleSheet.create(_styles);
