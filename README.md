@@ -4,6 +4,10 @@
 
 ###### Having developed a large number of applications and boilerplate code, of all the things I can't live without is a set of customisable layout components.
 
+## Usage
+- ```npm i react-native-common-elements --save```
+- ```import { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } = 'react-native-common-elements';```
+
 ## Components
 - ```<H1>...<H6>``` - text ranging from 1em to 2.5 em
 - ```<Text/>``` - text with standardised font size and styles
