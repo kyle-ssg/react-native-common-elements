@@ -6,7 +6,7 @@
 
 ## Usage
 - ```npm i react-native-common-elements --save```
-- ```import { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 } from 'react-native-common-elements';```
+- ```import { init, em, Row, FormGroup, Flex, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6, globalise } from 'react-native-common-elements';```
 
 ## Components
 - ```<H1>...<H6>``` - text ranging from 1em to 2.5 em
@@ -19,6 +19,7 @@
 
 ## Util
 - ```em(value, baseValue)``` returns unit based on device width
+- ```globalise()``` assigns components and em to global scope
 
 
 # Customisation
