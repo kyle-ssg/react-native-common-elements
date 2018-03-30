@@ -206,4 +206,21 @@ H1.propTypes = {
     children: PropTypes.node
 };
 
-module.exports = { init, em, Row, Flex, FormGroup, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6 };
+const globalise = ()=> {
+    global.em = em;
+    global.Row = Row;
+    global.Flex= Flex;
+    global.FormGroup = FormGroup;
+    global.Container = Container;
+    global.Column = Column;
+    global.Text = Text;
+    global.Bold = Bold;
+    global.H1 = H1;
+    global.H2 = H2;
+    global.H3 = H3;
+    global.H4 = H4;
+    globa.H5 = H5;
+    global.H6 = H6;
+};
+
+module.exports = { init, em, Row, Flex, FormGroup, Container, Column, Text, Bold, H1, H2, H3, H4, H5, H6, globalise };
